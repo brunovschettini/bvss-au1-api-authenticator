@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: bvss-au1-api-authenticator
+
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: 'refresh'
+ 
